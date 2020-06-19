@@ -1,0 +1,36 @@
+body {
+  font-family:monospace;
+  background-color: beige;
+}
+
+.jumbotron {
+  background-color: gainsboro;
+}
+
+.well {
+  background-color: burlywood;
+}
+
+.header {
+  width: 25%;
+  position; static:
+  padding-left: 10px;
+  float: right;
+}
+
+.row {
+  padding: 10px;
+}
+
+.footer {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.sidebar {
+  position:static;
+  width: 75%;
+  padding: 10px;
+  margin: 10px; 
+}
