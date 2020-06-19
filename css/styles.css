@@ -1,5 +1,5 @@
 body {
-  font-family:monospace;
+  font-family: monospace;
   background-color: beige;
 }
 
@@ -12,9 +12,11 @@ body {
 }
 
 .header {
-  width: 25%;
-  position; static:
-  padding-left: 10px;
+  width: 35%;
+  float: right;
+  border: 10px;
+  padding: 15px;
+  margin: 15px;
   float: right;
 }
 
@@ -22,10 +24,22 @@ body {
   padding: 10px;
 }
 
+.hello {
+  float: left;
+  font-size: 300%;
+  line-height: 80%
+}
+
 .footer {
-  width: 50%;
+  width: 75%;
   float: left;
   padding: 10px;
+  margin: 10px;
+  border: 10px;
+}
+
+.span-footer {
+  font-family: fantasy;
 }
 
 .sidebar {
@@ -33,4 +47,16 @@ body {
   width: 75%;
   padding: 10px;
   margin: 10px; 
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    width: 100%;
+  }
 }
