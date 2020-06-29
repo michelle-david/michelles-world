@@ -8,6 +8,10 @@
 
 This project is a personal hompage, created to fulfill the requirements of the Epicodus course "Intro to Programming".
 
+## URL
+
+* Visit https://michelle-david.github.io/michelles-world
+
 ## Setup/Installation Requirements
 
 * Download or clone this repository.
